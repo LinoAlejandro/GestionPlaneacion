@@ -1,5 +1,5 @@
 <html><head>
-	<meta name="layout" content="basic">
+	<meta name="layout" content="default">
 	<title>Login</title>
   <asset:stylesheet  src="custom/login/auth.css" rel="stylesheet" media="screen" />
 </head>
@@ -11,10 +11,10 @@
           Iniciar sesión
         </div>
         <div class="mx-auto px-2 py-5">
-          <form action="/login/authenticate" method="POST" id="loginForm" autocomplete="off">
+					<g:form name="name" controller="login" action="authenticate">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <span class="input-group-text text-dark px-3" id="basic-addon1" style="background-color: #99FF5E; border: solid 1px #99FF5E;">
+                <span class="input-group-text text-light px-3" id="basic-addon1" style="background-color: #282828; border: solid 1px #282828;">
                   <i class="fas fa-user"></i>
                 </span>
               </div>
@@ -22,20 +22,20 @@
             </div>
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <span class="input-group-text text-dark px-3" id="basic-addon1" style="background-color: #99FF5E; border: solid 1px #99FF5E;">
+                <span class="input-group-text text-light px-3" id="basic-addon1" style="background-color: #282828; border: solid 1px #282828;">
                   <i class="fas fa-lock"></i>
                 </span>
               </div>
-              <input type="text" class="form-control" name="password" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="password" class="form-control" name="password" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
             </div>
             <hr class="bg-light">
             <div class="">
-              <span class="d-block btn text-dark btn-md mb-3" style="background-color: #99FF5E;">Login<span/>
+              <input type="submit" class="btn btn-block text-light btn-md mb-3" value="Login" style="background-color:#282828"/>
             </div>
             <div class="">
-              <a class="d-block btn text-dark btn-md" style="background-color: #99FF5E;">Crear cuenta<a/>
+              <a class="d-block btn text-light btn-md" style="background-color: #;">Crear cuenta<a/>
             </div>
-      		</form>
+      		</g:form>
         </div>
       </div>
     </div>

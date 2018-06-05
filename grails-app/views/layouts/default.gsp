@@ -20,53 +20,8 @@
   <g:layoutHead />
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark px-5 custom-navbar">
-    <a clasS="navbar-brand" href="/"><span class="custom-navbar-link">Ecoax</span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item custom-navbar-item">
-          <a class="nav-link" href="/"><span class="custom-navbar-link">Inicio</span></a>
-        </li>
-        <li class="nav-item custom-navbar-item">
-          <a class="nav-link" href="/"><span class="custom-navbar-link">Crear denuncia</span></a>
-        </li>
-        <li class="nav-item dropdown custom-navbar-item">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="custom-navbar-link">Denuncias</span>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Mis denuncias</a>
-            <a class="dropdown-item" href="#">Denuncias</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown custom-navbar-item">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="custom-navbar-link">Acerca de</span>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Uso de la plataforma</a>
-            <a class="dropdown-item" href="#">Funcionamiento interno de la plataforma</a>
-            <a class="dropdown-item" href="#">Otros medios de denuncia</a>
-          </div>
-        </li>
-      </ul>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Log in</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
   <g:layoutBody />
 
-  <footer class="footer mt-5" style="background-color: rgb(50, 50, 50);">
-      <div class="container px-3 py-4">
-        Marca registrada
-      </div>
-  </footer>
 </body>
 </html>
